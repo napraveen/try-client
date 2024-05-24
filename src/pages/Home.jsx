@@ -8,7 +8,7 @@ const Home = () => {
         {userDetails ? (
           <>
             <div className="home-container">
-              <div className="home-dashboard">a;kfgno</div>
+              <div className="home-dashboard">{userDetails.username}</div>
             </div>
           </>
         ) : (
