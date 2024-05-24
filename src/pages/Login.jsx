@@ -32,7 +32,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        'http://localhost:4000/auth/login',
+        'https://try-server-three.vercel.app/auth/login',
         {
           ...inputValue,
         },

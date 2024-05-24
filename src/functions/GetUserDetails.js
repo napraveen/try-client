@@ -9,7 +9,7 @@ const GetUserDetails = () => {
     const GetUserDetails = async () => {
       console.log(username);
       const response = await fetch(
-        `http://localhost:4000/api/user/${username}`
+        `https://try-server-three.vercel.app/api/user/${username}`
       );
 
       const user = await response.json();
